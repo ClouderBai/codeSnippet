@@ -1,0 +1,1 @@
+@MapperScan(basePackages = { "com.forezp.dao" }) // mybatis 包扫描
