@@ -1,1 +1,4 @@
 @MapperScan(basePackages = { "com.forezp.dao" }) // mybatis 包扫描
+
+mybatis.type-aliases-package=com.forezp.entity
+mybatis.mapper-locations=classpath:mapping/*.xml
