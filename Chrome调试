@@ -1,0 +1,24 @@
+ $0 当前选中的 html 节点引用 $0 到 $4
+ Array.from(document.querySelectorAll('div')) === $$('div') === $$('div')
+$_ 是对上次执行的结果的引用。
+copy(...) 复制功能
+Store as global
+保存(Stack trace)堆栈跟踪
+Copy HTML (最快的方式) ctrl + c
+console.assert
+console.table
+console.dir 打印一个 DOM 节点
+可以按下 'h' 来隐藏在元素面板中被你选中的元素
+鼠标拖动 & 放置 元素  或者  使用 [ctrl] + [⬆] / [ctrl] + [⬇]
+[ Ctrl]+[Shift]+[P] 1.开启 timestamps
+console.time()
+console.timeEnd()
+queryObjects function 对象查询方法 class App(){ } queryObjects(App)
+monitor functions 镜像函数 monitor 是 DevTools 的一个方法, 它能够让你 spy(潜入) 到任何 "function calls(方法的调用)" 
+ctrl + shift + D 它将会在你现在所处的位置以及你之前使用的位置之间切换：
+Increment/decrement 递增/递减Style 部份最有用：通过使用带有或者不带有修饰键的上/下 箭头按键 你可以很轻松的递增和递减 0.1 , 1 或者 10
+monitorEvents($0, 'click')
+replay XHR requests (重新发送 XHR 的请求)
+console.log({ app, name, foo, test })   console.table({ app, name, foo, test })
+网络模拟
+<img src="https://user-gold-cdn.xitu.io/2018/12/29/167f82b33009449f?imageslim">实时表达式
