@@ -13,3 +13,11 @@
   display: block;
   clear: both;
 }
+2. 使用currentColor来简化css设置border-color、background-color等颜色的时候，可以使用currentColor[与当前元素的字体颜色相同]来简化css
+.div{
+    color: rgba(0,0,0,.85);
+    font-weight: 500;
+    text-align: left;
+    padding: 20px;
+    border: solid 1px currentColor;
+}
